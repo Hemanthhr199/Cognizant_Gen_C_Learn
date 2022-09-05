@@ -20,7 +20,7 @@
 		</property>
 	</bean>
 	
-	<bean id="courierBoObj" class="com.spring.bo.CourierBO" />
+	<bean id="courierBookj" class="com.spring.bo.CourierBO" />
 	
 	<bean id="courierSerivce" class="com.spring.service.CourierService">
 		<property name="cBoObj" ref="courierBoObj" />
